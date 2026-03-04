@@ -22,7 +22,7 @@ main{
        grid-area: corpo;
 }
 footer{
-    background-color: black;
+    background-color: rgb(255, 7, 172);
     grid-area: peh;
 }
 
@@ -39,7 +39,7 @@ footer{
     }
     .letra{
         color: coral;
-        background-color: darkgreen;
+        
     }
 }
 
@@ -57,3 +57,11 @@ footer{
         display: none;
     }
 }
+.
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:;
+}
+    
