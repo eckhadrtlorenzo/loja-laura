@@ -77,4 +77,12 @@ footer{
    text-align: center;
    margin: 10px;
 }
+button{
+    background-color: #0D3B66;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
     
