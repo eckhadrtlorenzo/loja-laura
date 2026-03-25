@@ -86,3 +86,8 @@ button{
     cursor: pointer;
 }
     
+.pag{
+    text-decoration: none;
+    color: inherit;
+    display: contents;
+}

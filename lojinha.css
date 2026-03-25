@@ -1,0 +1,21 @@
+body{
+       display: grid;
+       grid-template-areas:
+              "primeiro primeiro segundo"
+              "primeiro primeiro segundo"
+              "terceiro terceiro segundo";
+              grid-template-rows:  ;
+              grid-template-columns: 600px auto 300px ;
+}
+.primeiro {
+       background-color:#0A4174;
+       grid-area: primeiro;
+}
+.segundo{
+       background-color:#49769F;
+       grid-area: segundo;
+}
+.terceiro{
+       background-color: #4E8EA2;
+       grid-area: terceiro;
+}
