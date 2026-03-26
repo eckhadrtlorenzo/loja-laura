@@ -57,7 +57,10 @@ footer{
 }
 .img_pedute{
    width: 200px;
-   height: 200px;
+   height: 200px;  
+   border-radius: 10px;
+   border: rgb(71, 93, 96) 2px solid;
+
 }
 .papi{
     display: flex;
