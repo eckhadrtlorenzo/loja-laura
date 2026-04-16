@@ -1,0 +1,111 @@
+body{
+       display: grid;
+       grid-template-areas:
+              "primeiro primeiro segundo"
+              "terceiro terceiro segundo"
+              "quarteta quarteta segundo";
+              grid-template-rows: 100px auto 100px ;
+              grid-template-columns: 600px auto 300px;
+}
+header {
+       background-color:#0A4174;
+       grid-area: primeiro;
+}
+aside{
+       background-color:#49769F;
+       grid-area:segundo;
+}
+main{
+       background-color: #4E8EA2;
+       grid-area:terceiro;
+}
+footer{
+    background-color:#001D39;
+    grid-area: quarteta;
+}
+
+@media only screen and (max-width: 850px){
+    body{
+        display: grid;
+        grid-template-areas:
+        ""
+        "braco"
+        "corpo"
+        "peh";
+        grid-template-rows: 100px 50px auto 100px;
+        grid-template-columns: auto;
+    }
+    .letra{
+        color: coral;
+        
+    }
+}
+
+@media only screen and (max-width: 450px){
+     body{
+        display: grid;
+        grid-template-areas:
+        "cabeca"
+        "corpo"
+        "peh";
+        grid-template-rows: 100px auto 100px;
+        grid-template-columns: auto;
+    }
+    aside{
+        display: none;
+    }
+}
+.nigga_nigga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+   display: flex;
+   flex-direction: column; 
+   padding: 30px; 
+   border: black 2px solid;
+   background-color: #BDD8E9;
+   width: 500px;
+   height: auto; 
+   border-radius: 10px;
+   margin: 10px;
+}
+
+
+.topo-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px; 
+    text-align: left;    
+}
+
+.img_pedute {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.comprar{
+    background-color: #0D3B66;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.carrinho{
+    background-color: #0D3B66;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;  
+}
