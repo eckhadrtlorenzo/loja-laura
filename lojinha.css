@@ -4,7 +4,7 @@ body{
               "primeiro primeiro segundo"
               "terceiro terceiro segundo"
               "quarteta quarteta segundo";
-              grid-template-rows: 100px auto 100px ;
+              grid-template-rows: 100px 800px 100px ;
               grid-template-columns: 600px auto 300px;
 }
 header {
@@ -24,51 +24,16 @@ footer{
     grid-area: quarteta;
 }
 
-@media only screen and (max-width: 850px){
-    body{
-        display: grid;
-        grid-template-areas:
-        ""
-        "braco"
-        "corpo"
-        "peh";
-        grid-template-rows: 100px 50px auto 100px;
-        grid-template-columns: auto;
-    }
-    .letra{
-        color: coral;
-        
-    }
-}
-
-@media only screen and (max-width: 450px){
-     body{
-        display: grid;
-        grid-template-areas:
-        "cabeca"
-        "corpo"
-        "peh";
-        grid-template-rows: 100px auto 100px;
-        grid-template-columns: auto;
-    }
-    aside{
-        display: none;
-    }
-}
-.nigga_nigga{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
 .card {
+    transform:translate(50%) ;
    display: flex;
    flex-direction: column; 
    padding: 30px; 
    border: black 2px solid;
    background-color: #BDD8E9;
-   width: 500px;
+   width: 800px;
    height: auto; 
    border-radius: 10px;
    margin: 10px;
@@ -85,27 +50,22 @@ footer{
 }
 
 .img_pedute {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
     object-fit: cover;
 }
-.comprar{
-    background-color: #0D3B66;
-    border: none;
-    padding: 10px;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    
-}
 
-.carrinho{
-    background-color: #0D3B66;
-    border: none;
-    padding: 10px;
-    color: white;
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5355; 
     border-radius: 5px;
-    cursor: pointer;  
-}
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+   
